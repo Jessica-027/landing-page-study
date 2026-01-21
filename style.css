@@ -1,0 +1,154 @@
+:root {
+    --font-primary-color: #fff;
+    --background-color-btn: linear-gradient(to right, #e6f0f7, #eef4f8, #abd7fd);
+    --color-btn: #193486;
+
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5%;
+    background: linear-gradient(to bottom, #6c9fcb, #dfbfd1, #6c9fcb);
+
+}
+
+
+.header {
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0;
+
+    background-color: rgba(242, 248, 253, 0.3);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.header__logo {
+    display: block;
+    width: 7rem;
+    margin: 0 3rem 0 1rem;
+
+}
+
+.header__nav {
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.header__menu a {
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.header__menu a:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+.header__btn {
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+
+
+}
+
+.btn {
+    padding: 1rem;
+
+    color: var(--font-primary-color);
+
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.btn--login:hover {
+    background-color: var(--font-primary-color);
+    color: var(--color-btn);
+
+}
+
+
+.btn--cta {
+    background: var(--background-color-btn);
+    color: var(--color-btn);
+    border: none;
+    box-shadow: 1px 1px 1px 1px #6c9fcb;
+}
+
+.btn--cta:hover {
+    background: rgba(207, 229, 248, 0.8);
+}
+
+.hero {
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    padding: 10rem 2rem 6rem;
+
+
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-primary-color);
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.hero__title-line {
+    display: block;
+
+}
+
+.hero__text {
+    font-size: 1.2rem;
+
+}
+
+.hero__highlight {
+    font-weight: bold;
+}
+
+.bla {
+    min-height: 100vh;
+}
